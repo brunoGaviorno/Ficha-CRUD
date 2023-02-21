@@ -56,39 +56,213 @@
             </form>
         </div>
         <div class="atributosERelacionados">
-            <h2>Atributos</h2>
-            <form class="atributos">
-                <div class="força">
-                    <label for="força">For:</label>
-                    <input id="força" name="força" type="number" placeholder="0" class="força">
-                    <input id="modForça" name="modForça" type="number" placeholder="0" class="modForça">
+            <div class="atributosGerais">
+                <h2>Atributos</h2>
+                <form class="atributos">
+                    <p>
+                    <div class="força">
+                        <label for="força">For:</label>
+                        <input id="força" name="força" type="number" placeholder="0" class="força">
+                        <input id="modForça" name="modForça" type="number" placeholder="0" class="modForça"></p>
+                    </div>
+                    <p>
+                    <div class="destreza">
+                        <label for="destreza">Dex:</label>
+                        <input id="destreza" name="destreza" type="number" placeholder="0" class="destreza">
+                        <input id="modDestreza" name="modDestreza" type="number" placeholder="0" class="modDestreza">
+                    </div>
+                    </p>
+                    <p>
+                    <div class="constituição">
+                        <label for="constituição">Con:</label>
+                        <input id="constituição" name="constituição" type="number" placeholder="0" class="constituição">
+                        <input id="modConstituição" name="modConstituição" type="number" placeholder="0"
+                            class="modConstituição">
+                    </div>
+                    </p>
+                    <p>
+                    <div class="inteligência">
+                        <label for="inteligência">Int:</label>
+                        <input id="inteligência" name="inteligência" type="number" placeholder="0" class="inteligência">
+                        <input id="modInteligência" name="modInteligência" type="number" placeholder="0"
+                            class="modInteligência">
+                    </div>
+                    </p>
+                    <p>
+                    <div class="sabedoria">
+                        <label for="sabedoria">Sab:</label>
+                        <input id="sabedoria" name="sabedoria" type="number" placeholder="0" class="sabedoria">
+                        <input id="modSabedoria" name="modSabedoria" type="number" placeholder="0" class="modSabedoria">
+                    </div>
+                    </p>
+                    <p>
+                    <div class="carisma">
+                        <label for="carisma">Car:</label>
+                        <input id="carisma" name="carisma" type="number" placeholder="0" class="carisma">
+                        <input id="modCarisma" name="modCarisma" type="number" placeholder="0" class="modCarisma">
+                    </div>
+                    </p>
+                </form>
+            </div>
+            <div class="períciasResistênciasEOutros">
+                <div class="inspiração">
+                    <input type="text" name="inspiração" id="inspiração" class="inspiração">
+                    <label for="inspiração">Inspiração</label>
                 </div>
-                <div class="destreza">
-                    <label for="destreza">Dex:</label>
-                    <input id="destreza" name="destreza" type="number" placeholder="0" class="destreza">
-                    <input id="modDestreza" name="modDestreza" type="number" placeholder="0" class="modDestreza">
+                <div class="proficiência">
+                    <input type="text" name="proficiência" id="proficiência" class="proficiência">
+                    <label for="proficiência">Proficiência</label>
                 </div>
-                <div class="constituição">
-                    <label for="constituição">Con:</label>
-                    <input id="constituição" name="constituição" type="number" placeholder="0" class="constituição">
-                    <input id="modConstituição" name="modConstituição" type="number" placeholder="0" class="modConstituição">
+                <div class="testeResistência">
+                    <h4>Teste de Resistência</h4>
+                    <p>
+                        <input type="radio" name="resistênciaForça" id="resistênciaForça"
+                            class="resistênciaForça"><input type="number" name="resistênciaForça" id="resistênciaForça"
+                            class="resistênciaForça"><label for="resistênciaForça">Força</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="resistênciaDestreza" id="resistênciaDestreza"
+                            class="resistênciaDestreza"><input type="number" name="resistênciaDestreza"
+                            id="resistênciaDestreza" class="resistênciaDestreza"><label
+                            for="resistênciaDestreza">Destreza</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="resistênciaConstituição" id="resistênciaConstituição"
+                            class="resistênciaConstituição"><input type="number" name="resistênciaConstituição"
+                            id="resistênciaConstituição" class="resistênciaConstituição"><label
+                            for="resistênciaConstituição">Constituição</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="resistênciaInteligência" id="resistênciaInteligência"
+                            class="resistênciaInteligência"><input type="number" name="resistênciaInteligência"
+                            id="resistênciaInteligência" class="resistênciaInteligência"><label
+                            for="resistênciaInteligência">Inteligência</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="resistênciaSabedoria" id="resistênciaSabedoria"
+                            class="resistênciaSabedoria"><input type="number" name="resistênciaSabedoria"
+                            id="resistênciaSabedoria" class="resistênciaSabedoria"><label
+                            for="resistênciaSabedoria">Sabedoria</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="resistênciaCarisma" id="resistênciaCarisma"
+                            class="resistênciaCarisma"><input type="number" name="resistênciaCarisma"
+                            id="resistênciaCarisma" class="resistênciaCarisma"><label
+                            for="resistênciaCarisma">Carisma</label>
+                    </p>
                 </div>
-                <div class="inteligência">
-                    <label for="inteligência">Int:</label>
-                    <input id="inteligência" name="inteligência" type="number" placeholder="0" class="inteligência">
-                    <input id="modInteligência" name="modInteligência" type="number" placeholder="0" class="modInteligência">
+                <div class="perícias">
+                    <h4>Perícias</h4>
+                    <p>
+                        <input type="radio" name="períciaAcrobacia" id="períciaAcrobacia"
+                            class="períciaAcrobacia"><input type="number" name="períciaAcrobacia"
+                            id="períciaAcrobacia" class="períciaAcrobacia"><label
+                            for="períciaAcrobacia">Acrobacia (Dex)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaArcanismo" id="períciaArcanismo"
+                            class="períciaArcanismo"><input type="number" name="períciaArcanismo"
+                            id="períciaArcanismo" class="períciaArcanismo"><label
+                            for="períciaArcanismo">Arcanismo (Int)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaAtletismo" id="períciaAtletismo"
+                            class="períciaAtletismo"><input type="number" name="períciaAtletismo"
+                            id="períciaAtletismo" class="períciaAtletismo"><label
+                            for="períciaAtletismo">Atletismo (For)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaAtuação" id="períciaAtuação"
+                            class="períciaAtuação"><input type="number" name="períciaAtuação"
+                            id="períciaAtuação" class="períciaAtuação"><label
+                            for="períciaAtuação">Atuação (Car)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaBlefar" id="períciaBlefar"
+                            class="períciaBlefar"><input type="number" name="períciaBlefar"
+                            id="períciaBlefar" class="períciaBlefar"><label
+                            for="períciaBlefar">Blefar (Car)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaFurtividade" id="períciaFurtividade"
+                            class="períciaFurtividade"><input type="number" name="períciaFurtividade"
+                            id="períciaFurtividade" class="períciaFurtividade"><label
+                            for="períciaFurtividade">Furtividade (Des)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaHistória" id="períciaHistória"
+                            class="períciaHistória"><input type="number" name="períciaHistória"
+                            id="períciaHistória" class="períciaHistória"><label
+                            for="períciaHistória">História (Int)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaIntimidação" id="períciaIntimidação"
+                            class="períciaIntimidação"><input type="number" name="períciaIntimidação"
+                            id="períciaIntimidação" class="períciaIntimidação"><label
+                            for="períciaIntimidação">Intimidação (Car)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaIntuição" id="períciaIntuição"
+                            class="períciaIntuição"><input type="number" name="períciaIntuição"
+                            id="períciaIntuição" class="períciaIntuição"><label
+                            for="períciaIntuição">Intuição (Sab)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaInvestigação" id="períciaInvestigação"
+                            class="períciaInvestigação"><input type="number" name="períciaInvestigação"
+                            id="períciaInvestigação" class="períciaInvestigação"><label
+                            for="períciaInvestigação">Investigação (Int)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaLidarComAnimais" id="períciaLidarComAnimais"
+                            class="períciaLidarComAnimais"><input type="number" name="períciaLidarComAnimais"
+                            id="períciaLidarComAnimais" class="períciaLidarComAnimais"><label
+                            for="períciaLidarComAnimais">Lidar com Animais (Sab)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaMedicina" id="períciaMedicina"
+                            class="períciaMedicina"><input type="number" name="períciaMedicina"
+                            id="períciaMedicina" class="períciaMedicina"><label
+                            for="períciaMedicina">Medicina (Sab)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaNatureza" id="períciaNatureza"
+                            class="períciaNatureza"><input type="number" name="períciaNatureza"
+                            id="períciaNatureza" class="períciaNatureza"><label
+                            for="períciaNatureza">Natureza (Int)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaPercepção" id="períciaPercepção"
+                            class="períciaPercepção"><input type="number" name="períciaPercepção"
+                            id="períciaPercepção" class="períciaPercepção"><label
+                            for="períciaPercepção">Percepção (Sab)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaPersuasão" id="períciaPersuasão"
+                            class="períciaPersuasão"><input type="number" name="períciaPersuasão"
+                            id="períciaPersuasão" class="períciaPersuasão"><label
+                            for="períciaPersuasão">Persuasão (Car)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaPrestidigitação" id="períciaPrestidigitação"
+                            class="períciaPrestidigitação"><input type="number" name="períciaPrestidigitação"
+                            id="períciaPrestidigitação" class="períciaPrestidigitação"><label
+                            for="períciaPrestidigitação">Prestidigitação (Dex)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaReligião" id="períciaReligião"
+                            class="períciaReligião"><input type="number" name="períciaReligião"
+                            id="períciaReligião" class="períciaReligião"><label
+                            for="períciaReligião">Religião (Int)</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="períciaSobrevivência" id="períciaSobrevivência"
+                            class="períciaSobrevivência"><input type="number" name="períciaSobrevivência"
+                            id="períciaSobrevivência" class="períciaSobrevivência"><label
+                            for="períciaSobrevivência">Sobrevivência (Sab)</label>
+                    </p>
                 </div>
-                <div class="sabedoria">
-                    <label for="sabedoria">Sab:</label>
-                    <input id="sabedoria" name="sabedoria" type="number" placeholder="0" class="sabedoria">
-                    <input id="modSabedoria" name="modSabedoria" type="number" placeholder="0" class="modSabedoria">
-                </div>
-                <div class="carisma">
-                    <label for="carisma">Car:</label>
-                    <input id="carisma" name="carisma" type="number" placeholder="0" class="carisma">
-                    <input id="modCarisma" name="modCarisma" type="number" placeholder="0" class="modCarisma">
-                </div>
-            </form>
+            </div>
         </div>
     </main>
 
